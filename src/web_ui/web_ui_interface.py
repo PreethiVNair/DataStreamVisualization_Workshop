@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from IPython.display import display, clear_output
 
 
 class RobotDashboard:
@@ -43,3 +44,7 @@ class RobotDashboard:
         self.fig.canvas.draw()
         self.fig.canvas.flush_events()
         plt.pause(0.01)
+
+        # Show only the latest version of the chart
+        clear_output(wait=True)
+        display(self.fig)

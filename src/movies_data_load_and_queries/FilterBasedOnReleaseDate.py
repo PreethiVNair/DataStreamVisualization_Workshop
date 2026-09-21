@@ -1,4 +1,4 @@
-import LoadMoviesData as lmd
+import movies_data_load_and_queries.LoadMoviesData as lmd
 import pandas as pd
 
 

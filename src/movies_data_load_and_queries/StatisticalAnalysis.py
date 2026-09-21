@@ -1,4 +1,4 @@
-from LoadMoviesData import movies
+from movies_data_load_and_queries.LoadMoviesData import movies
 import matplotlib.pyplot as plt 
 
 # Create a smaller dataset with the needed columns
