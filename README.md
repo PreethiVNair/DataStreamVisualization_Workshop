@@ -20,6 +20,7 @@ Manufacturing robots generate a large amount of sensor and operational data. The
 The project uses the provided manufacturing robot dataset.
 
 *Dataset:* RMBR4-2_export_test.csv
+*Source:* Provided by Conestoga College for this course assignment.
 
 ## 5. Project Description
 
