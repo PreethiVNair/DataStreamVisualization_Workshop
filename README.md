@@ -30,26 +30,26 @@ project/
 
 Anomalies
 
-**anomalyReport.ipynb**
+**anomalyReport.ipynb** - 
 Analyzes the collected data to identify and report unusual or abnormal values.
 
 **Data Service**
 
-**datacollection.py**
+**datacollection.py** - 
 Reads the robot data and provides the data records for processing.
 
-database_manager.py
+database_manager.py - 
 Manages storing and retrieving data from the database.
 
 **Energy Consumption**
 
-**enery_consumption.ipynb**
+**enery_consumption.ipynb** - 
 Analyzes energy-related data and provides information about energy consumption.
 
-**StatisticalAnalysis.py**
+**StatisticalAnalysis.py** - 
 Performs basic statistical analysis on the movie data.
 
-**Web_ui_interface.py**
+**Web_ui_interface.py** - 
 Contains the dashboard and visualization components used to display the processed data.
 
 **Technologies Used**
