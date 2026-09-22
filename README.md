@@ -12,7 +12,7 @@ Manufacturing robots generate a large amount of sensor and operational data. The
 
 - Arya vinodbhai Patel - 9084843
 - Preethi Vasudevan Nair - 9125985
-- Asangika Hettiarachchi - 
+- Asangika Hettiarachchi - 7461502 
   
 
 ## 4. Dataset
@@ -83,4 +83,3 @@ Pandas
 Matplotlib
 Jupyter Notebook
 Database
-
