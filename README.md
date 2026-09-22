@@ -44,9 +44,6 @@ project/
 │   ├── database_manager.py
 │   └── datacollection.py
 │
-├── energy_consumption/
-│   └── enery_consumption.ipynb
-│
 ├── web_ui/
 │   └── web_ui_interface.py
 │
