@@ -1,23 +1,75 @@
-# DataEngineeringOne
+# Data Stream Visualization Workshop
 
-This project is a beginner-friendly data engineering and notebook workshop focused on working with a TMDB movie dataset in Python.
+## Project Description
 
-## Current status
-This repository is currently a work in progress. The notebook exercises, data loading steps, and exploratory data analysis examples are being developed and refined as part of the workshop.
+This project demonstrates data collection, database management, data analysis, anomaly detection, energy consumption analysis, and web-based data visualization. The project uses Python, Jupyter Notebook, and other data-processing tools.
 
-## Included in the current state
-- A Jupyter notebook for exploring the movie dataset
-- Python code for loading data from the project data folder
-- Basic data queries and filtering examples
-- Simple exploratory analysis using pandas
-- A correlation and visualization example using Matplotlib
+## Project Structure
 
-## Planned upgrades
-- Add more structured data engineering workflows
-- Improve documentation and teaching notes
-- Expand exploratory analysis and visualization examples
-- Add cleaner project organization and reusable code modules
-- Refine the workshop flow for beginner students
+```text
+project/
+│
+├── anomalies/
+│   └── anomalyReport.ipynb
+│
+├── data_service/
+│   ├── database_manager.py
+│   └── datacollection.py
+│
+├── energy_consumption/
+│   └── enery_consumption.ipynb
+│
+├── web_ui/
+│   └── web_ui_interface.py
+│
+├── README.md
+└── requirements.txt
 
-## Notes
-The materials in this repository are intentionally being built progressively and may be updated as the workshop evolves.
+```
+
+
+Anomalies
+
+anomalyReport.ipynb
+Analyzes the collected data to identify and report unusual or abnormal values.
+
+Data Service
+
+datacollection.py
+Reads the robot data and provides the data records for processing.
+
+database_manager.py
+Manages storing and retrieving data from the database.
+
+Energy Consumption
+
+enery_consumption.ipynb
+Analyzes energy-related data and provides information about energy consumption.
+
+Movies Data Load and Queries
+
+LoadMoviesData.py
+Loads movie data for analysis.
+
+FilterBasedOnPopularity.py
+Filters movies based on their popularity.
+
+FilterBasedOnReleaseDate.py
+Filters movies using their release dates.
+
+FilterBasedOnRevenue.py
+Filters movies based on revenue.
+
+StatisticalAnalysis.py
+Performs basic statistical analysis on the movie data.
+
+Web_ui_interface.py
+Contains the dashboard and visualization components used to display the processed data.
+
+Technologies Used
+Python
+Pandas
+Matplotlib
+Jupyter Notebook
+Database
+
